@@ -1,13 +1,9 @@
 <template>
-$END$
+    <PageComponent title="Dashboard">
+        Content goes here
+    </PageComponent>
 </template>
 
-<script>
-export default {
-name: "Dashboard"
-}
+<script setup>
+import PageComponent from "../components/PageComponent.vue";
 </script>
-
-<style scoped>
-
-</style>
