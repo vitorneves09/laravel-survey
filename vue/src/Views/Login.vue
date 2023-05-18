@@ -71,8 +71,8 @@ import { ref } from "vue";
 
 const router = useRouter();
 const user = {
-    email: "",
-    password: "",
+    email: "vitor@vitor.com",
+    password: "12345",
     remember: false,
 };
 let errorMsg = ref("");
